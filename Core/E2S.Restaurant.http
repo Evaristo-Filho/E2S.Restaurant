@@ -1,0 +1,6 @@
+@E2S.Restaurant_HostAddress = http://localhost:5244
+
+GET {{E2S.Restaurant_HostAddress}}/
+Accept: application/json
+
+###

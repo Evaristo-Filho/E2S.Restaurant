@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "React", "React", "{A84FA6E0-4A6A-40BF-8FEC-23F2D080DA3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Angular", "Angular", "{696FAD80-3E19-4DB7-B160-2073752A4267}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vue", "Vue", "{399EAE7D-86E8-4786-AC49-6E210BD9A844}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MAUI", "MAUI", "{398A3A9E-22C9-41C0-ACB5-4A97021B4F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E2S.Restaurant", "Core\E2S.Restaurant.csproj", "{3F9B9752-FB68-CBFB-62DD-EFE485B89D9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{3203D795-4A3C-46AD-BF3F-44F00415CC07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F9B9752-FB68-CBFB-62DD-EFE485B89D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9B9752-FB68-CBFB-62DD-EFE485B89D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9B9752-FB68-CBFB-62DD-EFE485B89D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9B9752-FB68-CBFB-62DD-EFE485B89D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A84FA6E0-4A6A-40BF-8FEC-23F2D080DA3C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{696FAD80-3E19-4DB7-B160-2073752A4267} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{399EAE7D-86E8-4786-AC49-6E210BD9A844} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{398A3A9E-22C9-41C0-ACB5-4A97021B4F18} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3F9B9752-FB68-CBFB-62DD-EFE485B89D9B} = {3203D795-4A3C-46AD-BF3F-44F00415CC07}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E9D507E-049A-409F-BEE9-37EE0CBC9D1E}
+	EndGlobalSection
+EndGlobal
